@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statistics with Javascript</title>
+    <script src="./Index.js" defer></script>
+    <link rel="stylesheet" href="./Index.css" />
+  </head>
+  <body>
+    <main data-theme="light">
+      <header>
+        <h1>Statistics with Javascript</h1>
+      </header>
+      <section>
+        <div class="cards">
+          <article class="card cardpar">
+            <h3>Average</h3>
+            <label for="numbers" class="text"
+              >Insert here the numbers to calculate the average:</label
+            >
+            <input
+              type="text"
+              class="avg"
+              id="avgentry"
+              placeholder="1, 2, 3..."
+            />
+            <button class="btn" id="avgbtn">Calculate</button>
+            <label for="resultavg" class="text"></label>
+            <input type="text" id="avgresult" disabled />
+            <button class="btn" id="copyavg">copy</button>
+            <button class="btn" id="clearavg">clear</button>
+          </article>
+          <article class="card cardimpar">
+            <h3>Weight Average</h3>
+            <label for="numbers" class="text"
+              >Insert the numbers and the weights the calculate:</label
+            >
+            <input
+              type="text"
+              class="avgw"
+              id="avgwentry"
+              placeholder="number, weight, num..."
+            />
+            <button class="btn2" id="avgwbtn">Calculate</button>
+            <label for="resultavg" class="text"></label>
+            <input type="text" id="avgwresult" disabled />
+            <button class="btn2" id="copywavg">copy</button>
+            <button class="btn2" id="clearwavg">clear</button>
+          </article>
+          <article class="card cardimpar">
+            <h3><strong>Median</strong></h3>
+            <label for="numbers" class="text"
+              >Insert here the numbers to calculate the median:</label
+            >
+            <input
+              type="text"
+              class="median"
+              id="median"
+              placeholder="1, 2, 3..."
+            />
+            <button class="btn2" id="medianbtn">Calculate</button>
+            <label for="resultmedian" class="text"></label>
+            <input type="text" id="medianresult" disabled />
+            <button class="btn2" id="copymedian">copy</button>
+            <button class="btn2" id="clearmedian">clear</button>
+          </article>
+          <article class="card cardpar">
+            <h3><strong>Moda</strong></h3>
+            <label for="numbers" class="text"
+              >Insert here the numbers to calculate the moda:</label
+            >
+            <input
+              type="text"
+              class="moda"
+              id="moda"
+              placeholder="1, 2, 3..."
+            />
+            <button class="btn" id="modabtn">Calculate</button>
+            <label for="resultmoda" class="text"></label>
+            <input type="text" id="modaresult" disabled />
+            <button class="btn" id="copymoda">copy</button>
+            <button class="btn" id="clearmoda">clear</button>
+          </article>
+          <button class="btn" id="themeSwitcher">Switch Theme</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
