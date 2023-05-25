@@ -1,6 +1,8 @@
 # Statistics-Calculator 
 This calculator that can be used to calculate average, weight average, median and moda in a logical and easy way for the user. The user can inserd any quantities of numbers, since each of then is separated by ",". There are a button for copy the result and another button to clean all the entries.
 
+For the calculus of weight average, when the weight is not provided, the program uses the weight equal 1.
+
 All the project was created by me based on a ecercice of Modern Javascript from OneBitCode.
 
 ![Project Test](https://img.shields.io/badge/tested-approved-success)
