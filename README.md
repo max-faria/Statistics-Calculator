@@ -52,4 +52,4 @@ All the project was created by me based on a ecercice of Modern Javascript from 
 [![Gmail Badge](https://img.shields.io/badge/-mxxfaria@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mxxfaria@gmail.com)](mailto:mxxfaria@gmail.com)
 
 ## License
-![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)
+[![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/max-faria/Statistics-Calculator/blob/main/LICENSE)
